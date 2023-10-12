@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    margin-top: 0;
+    overflow: hidden;
+    width: 100vw;
+}
+
+#matrixBg {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.matrix {
+    position: absolute;
+    left: 0px;
+    top: 0vh;
+    color: green;
+    text-shadow: 0px 0px 3px lightgreen;
+}
+
+@keyframes matrixMove {
+    0% {
+        top: -1000vh;
+        opacity: 0%;
+    }
+    7%{
+        opacity: 100%;
+    }
+
+    90%{
+        opacity: 10%;
+    }
+    100% {
+        top: 1000vh;
+        opacity: 0%;
+    }
+}
