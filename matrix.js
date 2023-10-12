@@ -21,10 +21,10 @@ function matrixColums() {
     //Array with font sizes for randomization
     const fontSize = ["xx-small", "x-small", "small", "medium", "large", "x-large", "xx-large"];
     let posLeft = 0;
-    let max = 15;
-    let min = 4;
-    for (let i = 0; i < 400; i++) {
-    // while (posLeft < 100) {
+    let max = 1.2;
+    let min = 0.8;
+    // for (let i = 0; i < 400; i++) {
+    while (posLeft < 100) {
         posLeft = posLeft + Math.floor(Math.random() * (max - min) + min);
 
         let matrixPara = document.createElement("p");
@@ -38,7 +38,7 @@ function matrixColums() {
         matrixPara.style.fontSize = fontSize[Math.floor(Math.random() * fontSize.length)];
         //Adds random z-index for possible overlapping
         matrixPara.style.zIndex = -Math.abs(Math.floor(Math.random() * (5 - 1) + 1));
-        matrixPara.style.left = posLeft + "px";
+        matrixPara.style.left = posLeft + "vw";
 
         // Animation
 
