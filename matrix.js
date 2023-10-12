@@ -21,11 +21,11 @@ function matrixColums() {
     //Array with font sizes for randomization
     const fontSize = ["xx-small", "x-small", "small", "medium", "large", "x-large", "xx-large"];
     let posLeft = 0;
-    let max = 1.2;
-    let min = 0.8;
+    let max = 1;
+    let min = 0.6;
     // for (let i = 0; i < 400; i++) {
     while (posLeft < 100) {
-        posLeft = posLeft + Math.floor(Math.random() * (max - min) + min);
+        posLeft = posLeft + (Math.random() * (max - min) + min);
 
         let matrixPara = document.createElement("p");
         //Adds uniqe ID to each paragraph
