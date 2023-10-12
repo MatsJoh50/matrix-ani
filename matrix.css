@@ -20,7 +20,7 @@ body {
 
 @keyframes matrixMove {
     0% {
-        top: -2500vh;
+        top: -1000vh;
         opacity: 0%;
     }
     7%{
