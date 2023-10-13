@@ -1,0 +1,15 @@
+@keyframes spanMove {
+    0% {
+        opacity: 100%;
+    }
+    7%{
+        opacity: 750%;
+    }
+
+    90%{
+        opacity: 33%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
