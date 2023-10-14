@@ -1,13 +1,17 @@
+.spanMove{
+    animation-name: spanMove;
+    animation-duration: 0.9s;
+}
+
+.spanOp{
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+
 @keyframes spanMove {
     0% {
         opacity: 100%;
-    }
-    7%{
-        opacity: 750%;
-    }
-
-    90%{
-        opacity: 33%;
     }
     100% {
         opacity: 0%;
